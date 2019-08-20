@@ -1,0 +1,89 @@
+Surinam46:practica2 alumno$ mkdir algebra
+Surinam46:practica2 alumno$ mkdir fundamentos_de_programacion
+Surinam46:practica2 alumno$ mkdir quimica
+Surinam46:practica2 alumno$ mkdir calculo_y_geometria_analitica
+Surinam46:practica2 alumno$ mkdir fundamentos_de_fisica
+Surinam46:practica2 alumno$ ls
+algebra				calculo_y_geometria_analitica	fundamentos_de_fisica		fundamentos_de_programacion	practica.txt			quimica
+Surinam46:practica2 alumno$ rm practica.txt 
+Surinam46:practica2 alumno$ ls
+algebra				calculo_y_geometria_analitica	fundamentos_de_fisica		fundamentos_de_programacion	quimica
+Surinam46:practica2 alumno$ cd algebra/
+Surinam46:algebra alumno$ touch archivo.txt
+Surinam46:algebra alumno$ cd archivo.txt 
+-bash: cd: archivo.txt: Not a directory
+Surinam46:algebra alumno$ ls
+archivo.txt
+Surinam46:algebra alumno$ cd ..
+Surinam46:practica2 alumno$ ls
+algebra				calculo_y_geometria_analitica	fundamentos_de_fisica		fundamentos_de_programacion	quimica
+Surinam46:practica2 alumno$ cd calculo_y_geometria_analitica/
+Surinam46:calculo_y_geometria_analitica alumno$ touch archivo.txt
+Surinam46:calculo_y_geometria_analitica alumno$ cd ..
+Surinam46:practica2 alumno$ cd fundamentos_de_fisica/
+Surinam46:fundamentos_de_fisica alumno$ touch archivo.txt
+Surinam46:fundamentos_de_fisica alumno$ ls
+archivo.txt
+Surinam46:fundamentos_de_fisica alumno$ cd ..
+Surinam46:practica2 alumno$ cd quimica/
+Surinam46:quimica alumno$ touch archivo.txt
+Surinam46:quimica alumno$ ls
+archivo.txt
+Surinam46:quimica alumno$ cd ..
+Surinam46:practica2 alumno$ cd fundamentos_de_programacion/
+Surinam46:fundamentos_de_programacion alumno$ touch archivo.txt
+Surinam46:fundamentos_de_programacion alumno$ ls
+archivo.txt
+Surinam46:fundamentos_de_programacion alumno$ cd ..
+Surinam46:practica2 alumno$ ls
+algebra				calculo_y_geometria_analitica	fundamentos_de_fisica		fundamentos_de_programacion	quimica
+Surinam46:practica2 alumno$ cd algebra/
+Surinam46:algebra alumno$ ls
+archivo.txt
+Surinam46:algebra alumno$ echo "Mario Adrián Ornelas Cortés" />> archivo.txt 
+Surinam46:algebra alumno$ cat archivo.txt 
+Mario Adrián Ornelas Cortés /
+Surinam46:algebra alumno$ echo "317294824" />> archivo.txt 
+Surinam46:algebra alumno$ cat archivo.txt 
+Mario Adrián Ornelas Cortés /
+317294824 /
+Surinam46:algebra alumno$ cd ..
+Surinam46:practica2 alumno$ cd calculo_y_geometria_analitica/
+Surinam46:calculo_y_geometria_analitica alumno$ echo "Mario Adrián Ornelas Cortés" />> archivo.txt 
+Surinam46:calculo_y_geometria_analitica alumno$ echo "317294824"
+317294824
+Surinam46:calculo_y_geometria_analitica alumno$ echo "317294824" />> archivo.txt
+Surinam46:calculo_y_geometria_analitica alumno$ cat archivo.txt 
+Mario Adrián Ornelas Cortés /
+317294824 /
+Surinam46:calculo_y_geometria_analitica alumno$ cd ..
+Surinam46:practica2 alumno$ cd algebra/
+Surinam46:algebra alumno$ ls
+archivo.txt
+Surinam46:algebra alumno$ cd ..
+Surinam46:practica2 alumno$ cd quimica/
+Surinam46:quimica alumno$ echo "Mario Adrián Ornelas Cortés" />> archivo.txt 
+Surinam46:quimica alumno$ echo "317294824" />> archivo.txt 
+Surinam46:quimica alumno$ cat archivo.txt 
+Mario Adrián Ornelas Cortés /
+317294824 /
+Surinam46:quimica alumno$ cd ..
+Surinam46:practica2 alumno$ cd fundamentos_de_programacion/
+Surinam46:fundamentos_de_programacion alumno$ echo "Mario Adrián Ornelas Cortés" />> archivo.txt 
+Surinam46:fundamentos_de_programacion alumno$ echo "317294824" />> archivo.txt 
+Surinam46:fundamentos_de_programacion alumno$ cat archivo.txt 
+Mario Adrián Ornelas Cortés /
+317294824 /
+Surinam46:fundamentos_de_programacion alumno$ cd ..
+Surinam46:practica2 alumno$ cd fundamentos_de_fisica/
+Surinam46:fundamentos_de_fisica alumno$ ls
+archivo.txt
+Surinam46:fundamentos_de_fisica alumno$ echo "Mario Adrián Ornelas Cortés" />> archivo.txt 
+Surinam46:fundamentos_de_fisica alumno$ echo "317294824" />> archivo.txt 
+Surinam46:fundamentos_de_fisica alumno$ cat archivo.txt 
+Mario Adrián Ornelas Cortés /
+317294824 /
+Surinam46:fundamentos_de_fisica alumno$ cd ..
+Surinam46:practica2 alumno$ ls
+algebra				calculo_y_geometria_analitica	fundamentos_de_fisica		fundamentos_de_programacion	quimica
+Surinam46:practica2 alumno$ 
